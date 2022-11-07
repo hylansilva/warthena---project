@@ -1,0 +1,155 @@
+/*
+* @Name : index.css
+* @Version : 0.0.1
+* @Programmer : Hylan Silva
+* @Date : 2022-11-07
+*/
+
+@media screen and ( min-width: 500px){
+    header{
+        display: none;
+    }
+    
+    main{
+        display: none;
+    }
+    footer{
+        font-size: 200px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    body{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(57, 42, 104, 1);
+        color: white;
+    }
+     /* TRABALHANDO O FORMS DE LOGIN */
+    header.login-form{
+        margin: 248px 0 67px 0;
+        padding: 40px 25px 0 25px;
+        background-color: rgba(75, 58, 138, .74);
+        border-radius: 10px;
+    }
+
+    .login-input{
+        border: none;
+        margin: 8px 0;
+        padding: 0 13px;
+        width: 290px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #FFF8F8;
+    }   
+
+    .input-wrapper{
+        margin: 15px 0 15px -160px;
+        font-size: 13px;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        align-items:center ;
+    }
+
+    
+    /* Trabalhando com o Switch */
+    .switch{
+        position: relative;
+        width: 2.5rem;
+        height: 1.3rem;
+        margin-right: 10px;
+    }
+    .switch input{
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    
+    .slider{
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.979);
+        transition: 0.4s;
+        border-radius: 30px;
+    }
+    
+    .slider:before{
+        position: absolute;
+        content: "";
+        height: 1rem;
+        width: 1rem;
+        border-radius: 20px;
+        left: 0.3rem;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #C24EF3;
+        transition: 0.4s;
+    }
+    
+    input:checked + .slider{
+       background-color:  #C24EF3;
+    }
+    
+    input:checked + .slider:before{
+        left: calc(100% - 1.42rem);
+
+        background-color:rgba(75, 58, 138, .74);
+    }
+    /* Continuando com o Main Content */
+    .btn-login{
+        border: none;
+        width: 316px;
+        height: 34px;
+        border-radius: 10px;
+        background-color: #C451F3;
+        color: white;
+    }
+
+    p.text-bottom{
+        margin: 10px 0 10px -50px;
+        font-size: 11px;
+
+    }
+    a.link{
+        text-decoration: none;
+        color: #C24EF3;
+    }
+
+/* TRABALHANDO O FORMS DE LOGIN */
+    .button-login{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-evenly;
+        border: 0.25px solid white;
+        border-radius: 10px;
+        width: 339px;
+        height: 44px;
+        margin: 12px 0;
+
+    }
+
+    .go-with{
+        color: white;
+    }
+
+ /* TRABALHANDO O FOOTER */
+    footer{
+        display: none;
+    }
+}
+
+
+
