@@ -1,4 +1,17 @@
 @media screen and (max-width: 470px) {
+   
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(57, 42, 104, 1);
+        color: white;
+        width: 100vw;
+        height: 100vh;
+    }
+
     .container {
         border-radius: 50% ;
     }
@@ -7,4 +20,13 @@
         
     }
 
+    .time-right {
+        float: right;
+        color: #aaa;
+      }
+      
+    .time-left {
+        float: left;
+        color: #999;
+      }
 }
