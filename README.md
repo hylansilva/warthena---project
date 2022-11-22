@@ -1,7 +1,7 @@
 autor: [Hylan Silva](https://github.com/hylansilva)<br>
 Coautora: [Andressa Mota](https://github.com/andressamotaz) <br>
 data de crição: 07/11/2022<br>
-data de ultima alteração: 10/11/2022<br>
+data de ultima alteração: 22/11/2022<br>
 [Site oficial da plataforma](https://warthena.vercel.app)
 # Documentação Warthena Project
 
@@ -91,11 +91,11 @@ Este arquivo se refere a estilização dos arquivos: [chat.html](./assets/pages/
 
 # autores
  - [Andressa Mota](https://github.com/andressamotaz)
- -  [Hylan Silva](https://github.com/hylansilva)
- -  [Ana Beatriz](https://github.com/ladyburkhardt)
+ - [Hylan Silva](https://github.com/hylansilva)
+ - [Ana Beatriz](https://github.com/ladyburkhardt)
  - [Carlos Silva](https://github.com/carllossillva)
- - 
- - 
+ - [Julia Rocha](http://github.com/juliarcoelho)
+ - [Marcos Tenorio](https://github.com/MarcosTenorioDev)
  - 
  - 
  - 
