@@ -29,27 +29,25 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        background-color: rgba(57, 42, 104, 1);
+        background-color: #000000;
         color: white;
         width: 100vw;
         height: 100vh;
+        gap: 60px;
     }
      /* TRABALHANDO O FORMS DE LOGIN */
-    header.login-form{
-        margin: 15.5rem 0 4.188rem 0;
-        padding: 2.5rem 1.563rem 0 1.5625rem;
-        background-color: rgba(75, 58, 138, .74);
-        border-radius: .625rem;
+    header .logo{
+        height: 300px;
     }
-
     .login-input{
         border: none;
         margin: .5rem 0;
         padding: 0 .8125rem;
         width: 18.125rem;
-        height: 2.5rem;
+        height: 2.3rem;
         border-radius: .625rem;
-        background-color: #FFF8F8;
+        background-color: #000000;
+        border: 1px solid white;
     }   
 
     .input-wrapper{
@@ -96,18 +94,18 @@
         left: 0.3rem;
         top: 50%;
         transform: translateY(-50%);
-        background-color: #C24EF3;
+        background-color: #A4161A;
         transition: 0.4s;
     }
     
     input:checked + .slider{
-       background-color:  #C24EF3;
+       background-color:  #A4161A;
     }
     
     input:checked + .slider:before{
         left: calc(100% - 1.42rem);
 
-        background-color:rgba(75, 58, 138, .74);
+        background-color: #ffffff;
     }
     /* Continuando com o Main Content */
     .btn-login{
@@ -115,7 +113,7 @@
         width: 19.75rem;
         height: 2.125rem;
         border-radius: .625rem;
-        background-color: #C451F3;
+        background-color: #A4161A;
         color: white;
     }
 
@@ -126,7 +124,11 @@
     }
     a.link{
         text-decoration: none;
-        color: #C24EF3;
+        color: #E5383B;
+    }
+    
+    p.link-fp{
+        color: #E5383B;
     }
 
 /* TRABALHANDO O FORMS DE LOGIN */
@@ -140,7 +142,7 @@
         width: 21.1875rem;
         height: 2.75rem;
         margin: .75rem 0;
-
+        background-color: #161A1D;
     }
 
     .go-with{

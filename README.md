@@ -1,7 +1,7 @@
 autor: [Hylan Silva](https://github.com/hylansilva)<br>
 Coautora: [Andressa Mota](https://github.com/andressamotaz) <br>
 data de crição: 07/11/2022<br>
-data de ultima alteração: 10/11/2022<br>
+data de ultima alteração: 23/11/2022<br>
 [Site oficial da plataforma](https://warthena.vercel.app)
 # Documentação Warthena Project
 
@@ -89,13 +89,36 @@ Esse arquivo se refere a outra funcionalidade do nosso aplicativo, sendo a parte
 
 Este arquivo se refere a estilização dos arquivos: [chat.html](./assets/pages/chat.html), [chatmesseger.html](./assets/pages/chatmesseger.html), [forgotpassword.html](./assets/pages/forgotpassword.html),[register.html](./assets/pages/register.html). 
 
+# Atualização 0.0.9 pré alpha
+
+Este arquivo se refere a colocação da logo do projeto em: [register.html](./assets/pages/register.html)
+
+Este arquivo se refere a colocação da logo do projeto em: [forgotpassword.html](./assets/pages/forgotpassword.html)
+
+Foi modificado as cores do projeto para o padrão de cores atuais:
+
+TELA DE CADASTRO ATUAL
+
+<img src="./assets/img/documentacao/tela-cadastro-atual.png">
+
+TELA DE LOGIN ATUAL
+
+<img src="./assets/img/documentacao/tela-login-atual.png">
+
+TELA DE ESQUECEU A SENHA ATUAL
+
+<img src="./assets/img/documentacao/esqueceu-senha-atual.png">
+
+
+
 # autores
  - [Andressa Mota](https://github.com/andressamotaz)
- -  [Hylan Silva](https://github.com/hylansilva)
- -  [Ana Beatriz](https://github.com/ladyburkhardt)
+ - [Hylan Silva](https://github.com/hylansilva)
+ - [Ana Beatriz](https://github.com/ladyburkhardt)
  - [Carlos Silva](https://github.com/carllossillva)
- - [Jefferson Ribeiro]
- - 
+ - [Jefferson Ribeiro](https://github.com/jeffersonribeiroti)
+ - [Julia Rocha](http://github.com/juliarcoelho)
+ - [Marcos Tenorio](https://github.com/MarcosTenorioDev)
  - 
  - 
  - 
