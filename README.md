@@ -116,6 +116,7 @@ TELA DE ESQUECEU A SENHA ATUAL
  - [Hylan Silva](https://github.com/hylansilva)
  - [Ana Beatriz](https://github.com/ladyburkhardt)
  - [Carlos Silva](https://github.com/carllossillva)
+ - [Jefferson Ribeiro](https://github.com/jeffersonribeiroti)
  - [Julia Rocha](http://github.com/juliarcoelho)
  - [Marcos Tenorio](https://github.com/MarcosTenorioDev)
  - 
