@@ -94,7 +94,7 @@ Este arquivo se refere a estilização dos arquivos: [chat.html](./assets/pages/
  -  [Hylan Silva](https://github.com/hylansilva)
  -  [Ana Beatriz](https://github.com/ladyburkhardt)
  - [Carlos Silva](https://github.com/carllossillva)
- - 
+ - [Jefferson Ribeiro]
  - 
  - 
  - 
