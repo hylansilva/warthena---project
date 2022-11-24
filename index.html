@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./assets/css/images.css">
     <link rel="stylesheet" href="./assets/css/fonts.css">
     <link rel="stylesheet" href="./assets/css/index.css">
+    <script src="./assets/pages/assets/js/load.js"></script>
 </head>
 <body>
     <header class="login-form">
@@ -32,7 +33,12 @@
                     </label>
                     <label >Manter-me conectada </label><br>
                 </div>
-                <button class="btn-login" type="submit"> Entrar </button><br>
+                <button class="btn-login" id="btn-login"onclick="function iniciar(){
+                    let button = document.getElementById('btn-login')
+                    var iframe = document. createElement('iframe');
+                    iframe. src = './assets/pages/feed.html';
+                    document. body. appendChild(iframe);
+                }" type="submit"> Entrar </button><br>
                 <p class="text-bottom"> Não possui conta? <a class="link register" href="./assets/pages/register.html">Registre-se aqui!</a> | <a class="link forgot-password" href="./assets/pages/forgotpassword.html">Esqueci a senha</a></p>
             </form>
         </div>
