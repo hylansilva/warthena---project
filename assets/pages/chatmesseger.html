@@ -4,34 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Warthena | Messeger</title>
     <link rel="stylesheet" href="../pages/assets/css/chatmesseger.css">
 </head>
 <body>
+  <header>
+    <a class="link" href="../pages/chat.html">
+      <button class="goback">
+      <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+      <iconify-icon icon="material-symbols:arrow-back" style="color: white" width="25" height="25"></iconify-icon>
+    </button>
+    </a>
+    <section class="chat-perfil">
+          <img class="perfil-image" src="../pages/assets/img/perfil1.webp" alt="foto de perfil">
+      <p class="chat-name">Ana Bala Tensa</p>
+  </section>
+  </header>
+    <main id="chatbox">
       <div class="container in">
-        <p>Oi amigaaa, quando vc fica livre pra jogar?</p>
-        <span class="time-right">11:00</span>
+        <p>Oi amigaa, quando vc fica livre pra jogar?</p>
+        <span class="time">11:00</span>
       </div>
-      
+
       <div class="container out">
-        <p>Oieee s2 s2</p>
         <p>Mais tarde, amg. 20h??</p>
-        <span class="time-left">11:01</span>
+        <span class="time">11:01</span>
       </div>
       
       <div class="container in">
         <p>Boa! Posso sim! s2</p>
-        <span class="time-right">11:02</span>
+        <span class="time">11:02</span>
       </div>
       
       <div class="container out">
         <p>Então até mais tarde s2 s2</p>
-        <span class="time-left">11:05</span>
+        <span class="time">11:05</span>
       </div>
-      <div class="chat-text">
-        <textarea id="text-box" name="text-box" rows="4" cols="50"></textarea>
-        <button class="btn-link">Enviar</button>
-      </div>
-
+    </main>
+    <footer>
+      <textarea id="text-box" name="text-box" rows="3" cols="50" placeholder="Mensagem" ></textarea>
+      <button class="btn-link">Enviar</button>
+    </footer>
 </body>
 </html>
