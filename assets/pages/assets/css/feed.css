@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.date-of-publication{
+    font-size: small;
+    color: gray;
+}
+.perfil-image{
+ border-radius: 50%;
+ width: 50px;
+right: 50px;
+}
+
+.perfil-atributes{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.perfil{
+    display: flex;
+}
+.menu-board{
+    float: right;
+    font-size: 30px;
+    margin-top: -66px;   
+}
+.feed-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.feed-content{
+    align-items: center;
+    display: grid;
+
+   
+}
+.feed-image-wrapper{
+  display: inline-block;
+}
+
+.perfil-image-wrapper{
+    width: 50px;
+    right: 50px;
+    border-radius: 50%;
+}
