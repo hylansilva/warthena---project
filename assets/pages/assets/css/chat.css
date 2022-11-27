@@ -16,14 +16,41 @@
         text-align: center;
         background-color: #000000;
         width: 100vw;
-        height: 100vh;
         gap: 30px;
+    }
+
+    .chat{
+        background-color: black;
+        height: 4rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        width: 100%;
+        position: fixed;
+        top:0; 
+    }
+    .chat a {
+        padding-inline: 18%;
+        color: white;
+        padding-bottom: 6px;
+    
+    
+    }
+    .chat .chatlink{
+        border-bottom: 2px solid red;
     }
 
     main hr{
         width: 19rem;
         color: #9F9F9F;
         opacity: 40%;
+    }
+
+    main{
+        position: fixed;
+        top:80px;       
     }
 
     .btn-link{
@@ -71,7 +98,7 @@
         position: fixed;
         width: 50px;
         height: 50px;
-        bottom: 30px;
+        bottom: 85px;
         right: 25px;
         background-color: #aa0404;
         border: none;
@@ -81,5 +108,21 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+    }
+    .menu {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #161A1D;
+        color: white;
+        text-align: center;
+        padding:15px 0;
+    
+    }
+    .menu ul{
+        display: flex;
+        justify-content: space-around;
+    
     }
 }
