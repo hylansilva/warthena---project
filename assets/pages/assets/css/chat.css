@@ -20,8 +20,8 @@
         gap: 30px;
     }
 
-   main hr{
-        width: 21rem;
+    main hr{
+        width: 19rem;
         color: #9F9F9F;
         opacity: 40%;
     }
@@ -47,6 +47,7 @@
         width: 3.125rem;
         height: 3.125rem;
         border-radius: 50%;
+        margin-left: 15px;
     }
 
     .chat-atributes{

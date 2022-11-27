@@ -8,23 +8,68 @@
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
-    body {
+    header {
+        display: flex;
+        padding: 5px;
+        align-items: center;
+    }
+
+    .chat-perfil{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10vw;
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: white;   
+    }
+
+    .perfil-image{
+        width: 3.1rem;
+        height: 3.1rem;
+        border-radius: 50%;
+        margin-top: 5px;
+    }
+
+    .goback{
+            position:inherit;
+            width: 80px;
+            height: 70px;
+            border: none;
+            background-color: #000000;
+            align-content: center;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+    }
+
+    body {        
         display: flex;
         flex-direction: column;
         background-color: #000000;
-        color: white;
         width: 100vw;
         height: 100vh;
-        gap: 25px;
+        margin-left: 0;
+    }
+
+    main {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        gap: 20px;
         font-size: small;
         align-content: space-between;
-        justify-content: flex-start;
+        
     }
 
     .in {
         background: rgba(229, 56, 59, 0.5);
         border-radius: 10px;
-        width: 200px;
+        width: fit-content;
+        min-width: 15%;
+        max-width: 60%;
         display: flex;
         flex-direction: column;
         justify-content: left;
@@ -32,11 +77,14 @@
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 5px;
-        margin-right: 25vw;
+        margin-left: 15px;
+
     }
 
     .out {
-        width: 200px;
+        width: fit-content;
+        min-width: 15%;
+        max-width: 60%;
         background: #161A1D;
         border: .5px solid #F5F3F4;
         border-radius: 10px;
@@ -45,10 +93,10 @@
         justify-content: right;
         align-items: baseline;
         padding-left: 10px;
-        padding-right: 10px;
+        padding-right: 20px;
         padding-bottom: 5px;
-        margin-left: 25vw;
-        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: 15px;
     }
 
     .time{
@@ -56,29 +104,26 @@
         font-size:xx-small;
     }
 
-    .chat-text{
+    footer{
         display: flex;
-        justify-content: space-between;
         align-items: center;
         flex-direction: row;
         background: #161A1D;
-        padding: 10px;
         position: fixed;
         bottom: 0;
-        margin-right: 10px;
-
+        padding: 10px;
     }
         
     textarea {
         width: 65%;
         height: 50px;
-        padding: 12px 20px;
+        padding: 10px 15px;
         border-radius: 15px;
         background: #0B090A;
         color: white;
       }
 
-    button {
+    .btn-link {
         background-color: #aa0404;
         border: none;
         color: white;
@@ -86,6 +131,7 @@
         text-decoration: none;
         cursor: pointer;
         border-radius: 13px;
-        margin: 20px;
+        margin: 10px;
+
     }
 }
