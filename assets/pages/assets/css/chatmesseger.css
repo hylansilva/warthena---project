@@ -12,6 +12,8 @@
         display: flex;
         padding: 5px;
         align-items: center;
+        position: fixed;
+        top:0;   
     }
 
     .chat-perfil{
@@ -21,7 +23,8 @@
         margin-left: 10vw;
         font-size: 0.8rem;
         font-weight: bold;
-        color: white;   
+        color: white; 
+    
     }
 
     .perfil-image{
@@ -61,7 +64,8 @@
         gap: 20px;
         font-size: small;
         align-content: space-between;
-        
+        position: fixed;
+        top:100px;
     }
 
     .in {
