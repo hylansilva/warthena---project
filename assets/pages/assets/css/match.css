@@ -5,6 +5,7 @@
     body{
         background-color: black;
         display: flex;
+        
     }
     
     .title{
@@ -472,6 +473,7 @@
                                     .menu ul{
                                         display: flex;
                                         justify-content: space-around;
+                                        list-style: none;
                                 
                                     }
                                     .menu-board{
@@ -486,4 +488,134 @@
                                         font-size: 30px;     
                                         margin-top: -66px;    
                                     } 
+                                    body{
+                                        display: flex;
+                                        flex-direction: column;
+                                        background-color: #000000;
+                                        width: 100vw;
+                                        gap: 30px;
+                                    }
+                                
+                                    .screen{
+                                    margin:80px 20px 20px;
+                                    }
+                                
+                                    header{
+                                    display: flex;
+                                    gap: 10px;
+                                    }
+                                    
+                                    hr{
+                                    width: 19rem;
+                                    color: #9F9F9F;
+                                    opacity: 40%;
+                                    }
+                                
+                                    .chat{
+                                        background-color: black;
+                                        height: 4rem;
+                                        display: flex;
+                                        justify-content: space-around;
+                                        flex-direction: row;
+                                        flex-wrap: wrap;
+                                        align-content: flex-end;
+                                        width: 100%;
+                                        position: fixed;
+                                        top:0; 
+                                    }
+                                    .chat a {
+                                        padding-inline: 18%;
+                                        color: white;
+                                        padding-bottom: 6px;
+                                
+                                
+                                    }
+                                    .chat .feed{
+                                        border-bottom: 2px solid red;
+                                    }
+                                    #post{
+                                        display: flex;
+                                        flex-direction: column;
+                                        gap: 10px;
+                                        margin-top: 25px;
+                                    }
+                                
+                                    .feed-text {
+                                        font-size: medium;
+                                    }
+                                
+                                    .perfil{
+                                        align-items: center;
+                                        display: flex; 
+                                        
+                                    }
+                                    .menu {
+                                        position: fixed;
+                                        left: 0;
+                                        bottom: 0;
+                                        width: 100%;
+                                        background-color: #161A1D;
+                                        color: white;
+                                        text-align: center;
+                                        padding:15px 0;
+                                
+                                    }
+                                    .menu ul{
+                                        display: flex;
+                                        justify-content: space-around;
+                                
+                                    }
+                                
+                                    .date-of-publication{     
+                                        font-size: smaller;     
+                                        color: gray; 
+                                    } 
+                                
+                                    .perfil-image{  
+                                        border-radius: 50%;  
+                                        width: 45px; 
+                                        height: 45px; 
+                                    }  
+                                
+                                    .menu-board{
+                                        display: flex;
+                                        flex-grow: 3;
+                                        flex-direction: row-reverse;
+                                
+                                    }
+                                
+                                    .menu-board{     
+                                        float: right;     
+                                        font-size: 30px;     
+                                        margin-top: -66px;    
+                                    } 
+                                
+                                    .feed-content{ 
+                                        display: flex;
+                                        flex-direction: column;  
+                                        gap: 10px;      
+                                    
+                                    } 
+                                    .feed-image{
+                                        display: grid;
+                                        grid-template-columns: 150px 150px;
+                                        grid-row: auto auto;
+                                        grid-row-gap: 5px;
+                                        grid-column-gap: 10px;
+                                        justify-content: center;
+                                    }
+                                    .feed-image-wrapper{   
+                                        display: flex;
+                                        justify-content: center;
+                                    }  
+                                    .perfil-image-wrapper{    
+                                        width: 50px;     
+                                        right: 50px;     
+                                        border-radius: 50%; 
+                                
+                                    }
+                                    li{
+                                        font-size: xx-small;     
+                                        color: gray;
+                                    }
 }
