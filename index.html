@@ -23,7 +23,7 @@
     <header class="login-form">
         <img class="logo" src="assets/img/logo.png" alt="">
         <div class="login-forms-wrapper">
-            <form>
+            <div>
                 <input class="login-input text" type="text" placeholder="E-mail ou nome de usuária"><br>
                 <input class="login-input password" type="password" placeholder="Digite a sua senha"><br>
                 <div class="input-wrapper">
@@ -33,14 +33,11 @@
                     </label>
                     <label >Manter-me conectada </label><br>
                 </div>
-                <button class="btn-login" id="btn-login"onclick="function iniciar(){
-                    let button = document.getElementById('btn-login')
-                    var iframe = document. createElement('iframe');
-                    iframe. src = './assets/pages/feed.html';
-                    document. body. appendChild(iframe);
-                }" type="submit"> Entrar </button><br>
+                <a href="/assets/pages/feed.html">
+                    <button class="btn-login" id="btn-login" type="button"> Entrar </button>
+                </a><br>
                 <p class="text-bottom"> Não possui conta? <a class="link register" href="./assets/pages/register.html">Registre-se aqui!</a> | <a class="link forgot-password" href="./assets/pages/forgotpassword.html">Esqueci a senha</a></p>
-            </form>
+            </div>
         </div>
     </header>
     <main>
