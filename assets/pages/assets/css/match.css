@@ -1,251 +1,225 @@
 @media screen and ( min-width: 471px){
+    
 }
-body{
+@media screen and ( max-width: 470px){
+    body{
+        background-color: black;
+    }
+    
+    .title{
     background-color: black;
-}
-
-.title{
-background-color: black;
-color: white;
-font-family: Arial, Helvetica, sans-serif;
-text-align: center;
-margin-top: 70px;
-font-size: 20px;
-}
-
-#divBusca{
-    background-color:black ;
-    border:solid 1px;
-    border-color: white;
-    border-radius:20px;
-    width: 341px;
-    height: 28px;
-    left: 25px;
-    top: 121px;
-    margin-top: 30px;
-  }
-  
-  #txtBusca{
-    float:left;
-    background-color:transparent;
-    padding-left:5px;
-    color: white;
-    font-style: arial;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:260px;
-  }
-  .iconbusca{
-    width: 20px;
-    height: 20px;  
-  }
-
-  .iconbuscar{
-    float: right;
-    margin-top: -45px;
-    margin-right: 30px;
-    width: 20px;
-    height: 11px;
-  }
-
-.iconfiltro{
-    float: right;
-    margin-top: -42px;
-    margin-right: -30px;
-    width: 20px;
-    height: 13px;
-}
-.filtroicom{
-    margin-left: 50px;
-}
-.text1{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-}
-
-.text2{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-}
-
-.text3{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-}
-
-.text4{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-}
-  .caixas123{
-   display: flex;
-   justify-content: center;
-    gap: 10px;
-    
-  }
-.caixa1{
-background-color: #161A1D;
-height: 130px;
-width: 140px;
-left: 60px;
-border-radius: 20px;
-
-
-}
-div{
-    padding: 10px;
-    
-}
-.vava{
-    width: 60px;
-    height: 50px;
-    justify-content: center;
-    margin-top: 5px;
-    margin-left: 30px;
-}
-.cx1-text1{
-    color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
-}
-.cx1-text2{
-    color:#9f9f9f;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 8px;
-    margin-top: -10px;
-}
-
-
-
-.caixa2{
+    margin-top: 70px;
+    font-size: 20px;
+    }
+    
+    #divBusca{
+        background-color:black ;
+        border:solid 1px;
+        border-color: white;
+        border-radius:20px;
+        width: 341px;
+        height: 28px;
+        left: 25px;
+        top: 121px;
+        margin-top: 30px;
+      }
+      
+      #txtBusca{
+        float:left;
+        background-color:transparent;
+        padding-left:5px;
+        color: white;
+        font-style: arial;
+        font-size:18px;
+        border:none;
+        height:32px;
+        width:260px;
+      }
+      .iconbusca{
+        width: 20px;
+        height: 20px;  
+      }
+    
+      .iconbuscar{
+        float: right;
+        margin-top: -45px;
+        margin-right: 30px;
+        width: 20px;
+        height: 11px;
+      }
+    
+    .iconfiltro{
+        float: right;
+        margin-top: -42px;
+        margin-right: -30px;
+        width: 20px;
+        height: 13px;
+    }
+    .filtroicom{
+        margin-left: 50px;
+    }
+    .text1{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+    
+    .text2{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+    
+    .text3{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+    
+    .text4{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+      .caixas123{
+       display: flex;
+       justify-content: center;
+        gap: 10px;
+        
+      }
+    .caixa1{
     background-color: #161A1D;
     height: 130px;
     width: 140px;
     left: 60px;
     border-radius: 20px;
-}
-    .lol{
+    
+    
+    }
+    div{
+        padding: 10px;
+        
+    }
+    .vava{
         width: 60px;
         height: 50px;
         justify-content: center;
         margin-top: 5px;
         margin-left: 30px;
     }
-    .cx2-text1{
+    .cx1-text1{
         color: white;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 10px;
     }
-    .cx2-text2{
+    .cx1-text2{
         color:#9f9f9f;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 8px;
         margin-top: -10px;
     }
-
     
-    .caixa3{
+    
+    
+    .caixa2{
         background-color: #161A1D;
         height: 130px;
         width: 140px;
         left: 60px;
         border-radius: 20px;
     }
-    .vava2{
-    width: 60px;
-    height: 50px;
-    justify-content: center;
-    margin-top: 5px;
-    margin-left: 30px;
-    }
-    .cx3-text1{
-        color: white;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top: 10px;
-    }
-    .cx3-text2{
-        color:#9f9f9f;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 8px;
-        margin-top: -10px;
-    }
-    
-
-        
-        .caixas456{
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-          }
-
-        .caixa4{
-        background-color: #161A1D;
-        height: 130px;
-        width: 140px;
-        left: 60px;
-        border-radius: 20px;    
-        }
-        .img4{
+        .lol{
             width: 60px;
             height: 50px;
             justify-content: center;
             margin-top: 5px;
             margin-left: 30px;
         }
-        .cx4-text1{
-        color: white;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top: 10px;
+        .cx2-text1{
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 10px;
         }
-        .cx4-text2{
-        color:#9f9f9f;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 8px;
-        margin-top: -10px;
-    }
+        .cx2-text2{
+            color:#9f9f9f;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 8px;
+            margin-top: -10px;
+        }
+    
         
-        .caixa5{
+        .caixa3{
             background-color: #161A1D;
             height: 130px;
             width: 140px;
             left: 60px;
             border-radius: 20px;
+        }
+        .vava2{
+        width: 60px;
+        height: 50px;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 30px;
+        }
+        .cx3-text1{
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 10px;
+        }
+        .cx3-text2{
+            color:#9f9f9f;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 8px;
+            margin-top: -10px;
+        }
+        
+    
             
+            .caixas456{
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+              }
+    
+            .caixa4{
+            background-color: #161A1D;
+            height: 130px;
+            width: 140px;
+            left: 60px;
+            border-radius: 20px;    
             }
-            .img5{
+            .img4{
                 width: 60px;
                 height: 50px;
                 justify-content: center;
                 margin-top: 5px;
                 margin-left: 30px;
             }
-            .cx5-text1{
-        color: white;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top: 10px;
+            .cx4-text1{
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 10px;
             }
-            .cx5-text2{
-                color:#9f9f9f;
-                text-align: center;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 8px;
-                margin-top: -10px;
-            }
-            .caixa6{
+            .cx4-text2{
+            color:#9f9f9f;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 8px;
+            margin-top: -10px;
+        }
+            
+            .caixa5{
                 background-color: #161A1D;
                 height: 130px;
                 width: 140px;
@@ -253,62 +227,27 @@ div{
                 border-radius: 20px;
                 
                 }
-                .img6{
-                width: 60px;
-                height: 50px;
-                justify-content: center;
-                margin-top: 5px;
-                margin-left: 30px;
-                }
-
-                .cx6-text1{
-                color: white;
-                text-align: center;
-                font-family: Arial, Helvetica, sans-serif;
-                margin-top: 10px;
-                }
-                .cx6-text2{
-                color:#9f9f9f;
-                text-align: center;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 8px;
-                margin-top: -10px;    
-                }
-
-                .caixas789{
-                    display: flex;
+                .img5{
+                    width: 60px;
+                    height: 50px;
                     justify-content: center;
-                    gap: 10px;
-                  }
-                .caixa7{
-                background-color: #161A1D;
-                height: 130px;
-                width: 140px;
-                left: 60px;
-                border-radius: 20px;
-                
+                    margin-top: 5px;
+                    margin-left: 30px;
                 }
-                .img7{
-                width: 60px;
-                height: 50px;
-                justify-content: center;
-                margin-top: 5px;
-                margin-left: 30px;   
+                .cx5-text1{
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 10px;
                 }
-                .cx7-text1{
-                color: white;
-                text-align: center;
-                font-family: Arial, Helvetica, sans-serif;
-                margin-top: 10px;
+                .cx5-text2{
+                    color:#9f9f9f;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 8px;
+                    margin-top: -10px;
                 }
-                .cx7-text2{
-                color:#9f9f9f;
-                text-align: center;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 8px;
-                margin-top: -10px;    
-                }
-                .caixa8{
+                .caixa6{
                     background-color: #161A1D;
                     height: 130px;
                     width: 140px;
@@ -316,27 +255,62 @@ div{
                     border-radius: 20px;
                     
                     }
-                    .img8{
-                width: 60px;
-                height: 50px;
-                justify-content: center;
-                margin-top: 5px;
-                margin-left: 30px; 
+                    .img6{
+                    width: 60px;
+                    height: 50px;
+                    justify-content: center;
+                    margin-top: 5px;
+                    margin-left: 30px;
                     }
-                    .cx8-text1{
-                        color: white;
-                        text-align: center;
-                        font-family: Arial, Helvetica, sans-serif;
-                        margin-top: 10px;  
+    
+                    .cx6-text1{
+                    color: white;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin-top: 10px;
                     }
-                    .cx8-text2{
-                        color:#9f9f9f;
-                        text-align: center;
-                        font-family: Arial, Helvetica, sans-serif;
-                        font-size: 8px;
-                        margin-top: -10px;   
+                    .cx6-text2{
+                    color:#9f9f9f;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 8px;
+                    margin-top: -10px;    
                     }
-                    .caixa9{
+    
+                    .caixas789{
+                        display: flex;
+                        justify-content: center;
+                        gap: 10px;
+                      }
+                    .caixa7{
+                    background-color: #161A1D;
+                    height: 130px;
+                    width: 140px;
+                    left: 60px;
+                    border-radius: 20px;
+                    
+                    }
+                    .img7{
+                    width: 60px;
+                    height: 50px;
+                    justify-content: center;
+                    margin-top: 5px;
+                    margin-left: 30px;   
+                    }
+                    .cx7-text1{
+                    color: white;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin-top: 10px;
+                    }
+                    .cx7-text2{
+                    color:#9f9f9f;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 8px;
+                    margin-top: -10px;    
+                    }
+                    .caixa8{
                         background-color: #161A1D;
                         height: 130px;
                         width: 140px;
@@ -344,60 +318,27 @@ div{
                         border-radius: 20px;
                         
                         }
-                        .img9{
-                            width: 60px;
-                            height: 50px;
-                            justify-content: center;
-                            margin-top: 5px;
-                            margin-left: 30px;    
+                        .img8{
+                    width: 60px;
+                    height: 50px;
+                    justify-content: center;
+                    margin-top: 5px;
+                    margin-left: 30px; 
                         }
-                        .cx9-text1{
+                        .cx8-text1{
                             color: white;
                             text-align: center;
                             font-family: Arial, Helvetica, sans-serif;
-                            margin-top: 10px;    
+                            margin-top: 10px;  
                         }
-                        .cx9-text2{
+                        .cx8-text2{
                             color:#9f9f9f;
                             text-align: center;
                             font-family: Arial, Helvetica, sans-serif;
                             font-size: 8px;
                             margin-top: -10px;   
                         }
-                        .caixasfinais{
-                            display: flex;
-                            justify-content: center;
-                            gap: 10px;
-                          }
-                        .caixa10{
-                        background-color: #161A1D;
-                        height: 130px;
-                        width: 140px;
-                        left: 60px;
-                        border-radius: 20px;
-                        
-                        }
-                        .lol{
-                            width: 60px;
-                            height: 50px;
-                            justify-content: center;
-                            margin-top: 5px;
-                            margin-left: 30px;  
-                        }
-                        .cx10-text1{
-                            color: white;
-                            text-align: center;
-                            font-family: Arial, Helvetica, sans-serif;
-                            margin-top: 10px;   
-                        }
-                        .cx10-text2{
-                            color:#9f9f9f;
-                            text-align: center;
-                            font-family: Arial, Helvetica, sans-serif;
-                            font-size: 8px;
-                            margin-top: -10px;     
-                        }
-                        .caixa11{
+                        .caixa9{
                             background-color: #161A1D;
                             height: 130px;
                             width: 140px;
@@ -405,27 +346,60 @@ div{
                             border-radius: 20px;
                             
                             }
-                            .ff{
+                            .img9{
+                                width: 60px;
+                                height: 50px;
+                                justify-content: center;
+                                margin-top: 5px;
+                                margin-left: 30px;    
+                            }
+                            .cx9-text1{
+                                color: white;
+                                text-align: center;
+                                font-family: Arial, Helvetica, sans-serif;
+                                margin-top: 10px;    
+                            }
+                            .cx9-text2{
+                                color:#9f9f9f;
+                                text-align: center;
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 8px;
+                                margin-top: -10px;   
+                            }
+                            .caixasfinais{
+                                display: flex;
+                                justify-content: center;
+                                gap: 10px;
+                              }
+                            .caixa10{
+                            background-color: #161A1D;
+                            height: 130px;
+                            width: 140px;
+                            left: 60px;
+                            border-radius: 20px;
+                            
+                            }
+                            .lol{
                                 width: 60px;
                                 height: 50px;
                                 justify-content: center;
                                 margin-top: 5px;
                                 margin-left: 30px;  
                             }
-                            .cx11-text1{
+                            .cx10-text1{
                                 color: white;
                                 text-align: center;
                                 font-family: Arial, Helvetica, sans-serif;
-                                margin-top: 10px;    
+                                margin-top: 10px;   
                             }
-                            .cx11-text2{
+                            .cx10-text2{
                                 color:#9f9f9f;
                                 text-align: center;
                                 font-family: Arial, Helvetica, sans-serif;
                                 font-size: 8px;
-                                margin-top: -10px;    
+                                margin-top: -10px;     
                             }
-                            .caixa12{
+                            .caixa11{
                                 background-color: #161A1D;
                                 height: 130px;
                                 width: 140px;
@@ -433,26 +407,82 @@ div{
                                 border-radius: 20px;
                                 
                                 }
-                                .vavaa{
-                                width: 60px;
-                                height: 50px;
-                                justify-content: center;
-                                margin-top: 5px;
-                                margin-left: 30px;
+                                .ff{
+                                    width: 60px;
+                                    height: 50px;
+                                    justify-content: center;
+                                    margin-top: 5px;
+                                    margin-left: 30px;  
                                 }
-
-                                .cx12-text1{
+                                .cx11-text1{
                                     color: white;
                                     text-align: center;
                                     font-family: Arial, Helvetica, sans-serif;
-                                    margin-top: 10px;   
+                                    margin-top: 10px;    
                                 }
-
-                                .cx12-text2{
-                                color:#9f9f9f;
-                                text-align: center;
-                                font-family: Arial, Helvetica, sans-serif;
-                                font-size: 8px;
-                                margin-top: -10px; 
+                                .cx11-text2{
+                                    color:#9f9f9f;
+                                    text-align: center;
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    font-size: 8px;
+                                    margin-top: -10px;    
                                 }
-                    
+                                .caixa12{
+                                    background-color: #161A1D;
+                                    height: 130px;
+                                    width: 140px;
+                                    left: 60px;
+                                    border-radius: 20px;
+                                    
+                                    }
+                                    .vavaa{
+                                    width: 60px;
+                                    height: 50px;
+                                    justify-content: center;
+                                    margin-top: 5px;
+                                    margin-left: 30px;
+                                    }
+    
+                                    .cx12-text1{
+                                        color: white;
+                                        text-align: center;
+                                        font-family: Arial, Helvetica, sans-serif;
+                                        margin-top: 10px;   
+                                    }
+    
+                                    .cx12-text2{
+                                    color:#9f9f9f;
+                                    text-align: center;
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    font-size: 8px;
+                                    margin-top: -10px; 
+                                    }
+                                    .menu {
+                                        position: fixed;
+                                        left: 0;
+                                        bottom: 0;
+                                        width: 100%;
+                                        background-color: #161A1D;
+                                        color: white;
+                                        text-align: center;
+                                        padding:15px 0;
+                                
+                                    }
+                                    .menu ul{
+                                        display: flex;
+                                        justify-content: space-around;
+                                
+                                    }
+                                    .menu-board{
+                                        display: flex;
+                                        flex-grow: 3;
+                                        flex-direction: row-reverse;
+                                
+                                    }
+                                
+                                    .menu-board{     
+                                        float: right;     
+                                        font-size: 30px;     
+                                        margin-top: -66px;    
+                                    } 
+}
